@@ -17,11 +17,10 @@ RBI_Inflation_MonetaryPolicy_Analysis/
 │
 ├── RBI_Inflation_MonetaryPolicy_Analysis.ipynb   # Main research notebook
 ├── data/
-│   ├── world_bank_cpi_india.csv                  # CPI data (World Bank)
-│   └── rbi_repo_rate.xlsx                        # Repo Rate data (RBI DBIE)
-├── plots/
-│   ├── inflation_vs_repo_rate.png                # Line chart: Inflation vs Repo Rate
-│   └── cross_correlation_function.png            # CCF plot with confidence intervals
+│   ├── cpi_india_worldbank.csv                   # CPI data (World Bank)
+│   └── rbi_repo_rates.xlsx                       # Repo Rate data (RBI DBIE)
+├── ccf_plot.png                                  # CCF plot with confidence intervals
+├── regression_plot.png                           # Regression scatter plot
 └── README.md
 ```
 
@@ -76,17 +75,17 @@ RBI_Inflation_MonetaryPolicy_Analysis/
 
 ## 📉 Key Visualisations
 
-**Inflation vs Repo Rate (2007–2015)**
-> Shows the inverse co-movement between RBI's policy rate and CPI inflation over time.
+**Regression Plot**
+> Shows the directional relationship between the RBI Repo Rate and CPI Inflation with a fitted trend line.
 
-![Inflation vs Repo Rate](plots/inflation_vs_repo_rate.png)
+![Regression Plot](regression_plot.png)
 
 ---
 
 **Cross-Correlation Function (CCF) — With 95% Confidence Intervals**
 > Reveals that the peak policy transmission effect occurs at a **5–6 year lag**, highlighting the long delay between rate decisions and inflation outcomes.
 
-![Cross-Correlation Function](plots/cross_correlation_function.png)
+![Cross-Correlation Function](ccf_plot.png)
 
 ---
 
