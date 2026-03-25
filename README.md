@@ -21,7 +21,6 @@ RBI_Inflation_MonetaryPolicy_Analysis/
 │   └── rbi_repo_rates.xlsx                       # Repo Rate data (RBI DBIE)
 ├── ccf_plot.png                                  # CCF plot with confidence intervals
 ├── regression_plot.png                           # Regression scatter plot
-├── Rushikesh_Kedar_Inflation_MonetaryPolicy_India.pdf   # Research paper
 └── README.md
 ```
 
@@ -101,7 +100,7 @@ pip install numpy pandas matplotlib seaborn statsmodels openpyxl jupyter
 ### Run the Notebook
 
 ```bash
-git clone https://github.com/your-username/RBI_Inflation_MonetaryPolicy_Analysis.git
+git clone https://github.com/rushi1914/RBI_Inflation_MonetaryPolicy_Analysis.git
 cd RBI_Inflation_MonetaryPolicy_Analysis
 jupyter notebook RBI_Inflation_MonetaryPolicy_Analysis.ipynb
 ```
