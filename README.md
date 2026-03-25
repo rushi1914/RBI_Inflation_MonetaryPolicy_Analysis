@@ -21,6 +21,7 @@ RBI_Inflation_MonetaryPolicy_Analysis/
 │   └── rbi_repo_rates.xlsx                       # Repo Rate data (RBI DBIE)
 ├── ccf_plot.png                                  # CCF plot with confidence intervals
 ├── regression_plot.png                           # Regression scatter plot
+├── Rushikesh_Kedar_Inflation_MonetaryPolicy_India.pdf   # Research paper
 └── README.md
 ```
 
